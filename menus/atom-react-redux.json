@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-react-redux",
+        "command": "atom-react-redux:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-react-redux",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-react-redux:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
