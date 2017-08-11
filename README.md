@@ -1,6 +1,6 @@
 # atom-react-redux package
 
-Bootstrap code to extend Atom the React/Redux way. See [blog post for details](https://medium.com/p/bea1b8e21e35/)
+Bootstrap code to extend Atom the React-Redux way. See [blog post for details](https://medium.com/@victordoss/extend-atom-editor-the-react-redux-way-bea1b8e21e35)
 
 ### Getting started
 
