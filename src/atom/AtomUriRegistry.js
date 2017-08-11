@@ -7,7 +7,6 @@ import reducers from "../reducers";
 import { Provider } from "react-redux";
 import { wrapHtmlElement } from "./ReactHTMLElement";
 
-const initialState = {};
 let store = null; // redux store
 
 class AtomItem {
@@ -59,7 +58,7 @@ export function register(Component, options) {
   return item;
 }
 
-export function initStore() {
+export function initStore(initialState) {
   if (store) {
     return store;
   }
